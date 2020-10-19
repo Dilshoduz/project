@@ -1,0 +1,19 @@
+body{
+    background-color: dimgray;
+
+}
+.odi{
+
+
+    color: rgb(6, 43, 46);
+    margin-top: 50px;
+    margin-left: 450px;
+    font-style: italic;
+}
+
+.abt{
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 300px;
+    font-weight: 200;
+}

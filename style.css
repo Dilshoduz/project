@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;    
+}     
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 80px;
+    margin-right: 470px;
+}
+ul li {
+    display: inline-block
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    padding: 6px 21px;
+    border: 1px solid rgb(228, 7, 7);
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: rgb(0, 255, 21);
+    color:rgb(47, 177, 8);
+}
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1 {
+    color: (rgb(100, 150, 9));
+    font-size:70px;
+
+}
+    
+.muc{
+    color: deepskyblue;
+    font-size: 100px;
+    list-style: square;
+    margin-left: 400px;
+    
+}
+.fom{
+    margin-left: 200px;
+}
+.adres{
+    color: rgb(23, 42, 146);
+    margin-left: 50px;
+    margin-top: 7%;
+    size: 30px;
+}
+.vil{
+    color: rgb(72, 146, 23);
+    margin-top: -1%;
+    margin-left: 200px;
+}
+.city{
+    margin-top: 1%;
+    margin-left: 450px;
+    color:rgb(72, 146, 23) ;
+}
+.pubg{
+    margin-top:-12%;
+    margin-left: 1000px;
+    color: rgb(23, 42, 146);
+}
+.nik{
+    margin-top: 0.6%;
+    margin-left: 900px;
+    color: teal;
+}
+.id{
+    margin-left:870px;
+    margin-top: 1%;
+    color: teal;
+}
+
+.sayt{
+    margin-left: 300px;
+    font-size: 6em;
+    cursor: pointer;
+}
+
+  
+  .full-screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .full-screen video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  body{
+      background-image: url(.//image/fon.jpg);
+      min-height: 100vh;
+      
+  }
+ 
+.pubg{
+    margin-top: -48%;
+
+}
+.nik{
+    margin-right: 40px;
+}
+.pubgg{
+    margin-right: -3%;
+    margin-left: -5%;
+    margin-top: 35px;
+}

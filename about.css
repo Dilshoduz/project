@@ -1,0 +1,16 @@
+body{
+   
+    background-image: url(./image/abrasm.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    
+    
+}
+h3{
+    color: rgb(42, 185, 14);
+}
